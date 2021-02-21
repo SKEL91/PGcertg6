@@ -35,7 +35,7 @@ public Citizen1(String citizenPrefix, String citizenFirstName, String citizenLas
    nino=citizenNino;
 }
 
-   public String getPrefix() {
+   public String getPrefix() { //these could be either public or protected?
       return prefix;
    }
 
